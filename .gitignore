@@ -1,0 +1,61 @@
+# Node
+node_modules/
+# If you have per-package node_modules folders
+/backend/node_modules/
+/frontend/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Optional npm cache directory
+.npm
+
+# Vite / build
+dist/
+.vite/
+frontend/dist/
+build/
+
+# TypeScript
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+
+# Database
+backend/cs2stats.db
+*.db
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+
+# Ignore local dev tool caches
+.eslintcache
+
+# Optional: lockfile (uncomment if you want to ignore lockfiles)
+# package-lock.json
+# yarn.lock
